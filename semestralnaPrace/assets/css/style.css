@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&display=swap');
+
+.nav-buttons{
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
+}
+
+button {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    border: none;
+    color: lightblue;
+    background: black;
+    cursor: pointer;
+    border-radius: 33px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: rgba(173, 216, 230, 0.5);;
+    padding: 0.5rem 1rem;
+    border-radius: 33px;
+    color: black;
+
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 1200;
+    color: white;
+
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+h5 {
+    color : white;
+}
+
+
+
+p {
+    color :white;
+}
+
+.oFirme p {
+    width: 50%;
+    text-align: center;
+    margin : 0 auto;
+
+}
+
+.carousel img {
+    height:  680px;
+}
+
+
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+
+#home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: left;
+    align-items: center;
+    background-image: url("../images/backGround.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+
+.kontakt{
+    align-items: center;
+    margin-top : 20%;
+    border-radius: 150px;
+
+}
+
+
